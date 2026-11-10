@@ -1,0 +1,15 @@
+name: MorningStarBridge
+version: '${version}'
+main: net.morningstar.bridge.MorningStarBridge
+api-version: '26.3'
+description: Discord status bridge for Morning Star SMP
+author: whiteghost717
+commands:
+  msbridge:
+    description: MorningStarBridge administration
+    usage: /msbridge reload
+    permission: morningstarbridge.admin
+permissions:
+  morningstarbridge.admin:
+    description: Allows reloading MorningStarBridge
+    default: op
