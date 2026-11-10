@@ -1,0 +1,22 @@
+discord:
+  # Paste the Discord bot token here AFTER the first server start.
+  # Never commit your real token or upload this config to GitHub.
+  token: "PUT_BOT_TOKEN_HERE"
+  guild-id: "PUT_DISCORD_SERVER_ID_HERE"
+  status-channel-id: "1569642521288511539"
+  # Leave empty. The plugin stores the status message ID here after creating it.
+  status-message-id: ""
+  update-seconds: 30
+
+server:
+  display-name: "MORNING STAR SMP"
+  address: "paid33.skilloraclouds.com:25599"
+  max-players-override: 15
+  owner-user-id: "1562179733024804921"
+  ticket-channel-id: "1569602258423775262"
+  staff-permission: "morningstarbridge.admin"
+  # Informational label only; live Pterodactyl usage requires a separate panel API integration.
+  resources-display: "Managed by SkilloAura"
+
+players:
+  all-time-display-limit: 10
